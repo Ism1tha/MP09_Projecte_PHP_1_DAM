@@ -8,9 +8,8 @@ Aquest repositori serveix per emmagatzemar tot el treball realitzat durant aques
 
 En aquest projecte, hem utilitzat les següents eines:
 
-- PHP: És el llenguatge de programació principal utilitzat per desenvolupar l'aplicació. Hem utilitzat la versió X.X.X de PHP.
+- PHP: És el llenguatge de programació principal utilitzat per desenvolupar l'aplicació. Hem utilitzat la versió 8.2.10 de PHP.
 - Composer: Gestor de dependències per a PHP que ens ha permès instal·lar i gestionar les llibreries necessàries pel projecte.
-- Laravel: Un framework PHP que proporciona eines i funcionalitats que faciliten el desenvolupament d'aplicacions web. Hem utilitzat la versió X.X.X de Laravel.
 
 ## Configuració
 
