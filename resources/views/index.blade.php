@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php echo greeting(); ?>
+    <?php echo greeting(); ?>g
 
     <table>
         <tr>
