@@ -16,3 +16,9 @@ function connectDB($config) {
         echo 'Error de connexió a la base de dades: ' . $e;
     }
 }
+
+function fetchAllTasks($pdo) {
+    $query = $pdo->prepare("SELECT * from tasks;");
+    $query->execute();
+    return $query->fetchAll(PDO::FETCH_CLASS, 'Task');
+}
