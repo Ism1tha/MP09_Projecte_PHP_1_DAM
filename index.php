@@ -1,4 +1,4 @@
 <?php
 
-require 'app/index.php';
-require 'resources/views/index.blade.php';
+require_once 'app/index.php';
+require_once 'resources/views/index.blade.php';
