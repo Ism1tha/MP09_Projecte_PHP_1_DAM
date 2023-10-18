@@ -1,0 +1,17 @@
+{
+    "name": "ism1tha/mp09_projecte_php_1",
+    "description": "Desenvolupament del Projecte 1 en PHP amb Laravel per a MP09 (2023-2024)",
+    "type": "project",
+    "autoload": {
+        "classmap":[
+            "./"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Ism1tha",
+            "email": "xgalan@hotmail.com"
+        }
+    ],
+    "require": {}
+}
