@@ -1,23 +1,16 @@
 <?php
 
-namespace Framework\Database;
+namespace App\Framework\Database;
 
+use App\Framework\App;
 use PDO;
 
 class Connection {
-    
-    public $pdo;
-
-    public function __construct($config)
+    public static function make($config)
     {
-        $this->connectDB($config);
-    }
-
-    function connectDB($config) {
-        try {
-           $this->pdo = new PDO($config['database']['driver'] . ':host=' . $config['database']['host'] . ';dbname=' . $config['database']['database'], $config['database']['user'], $config['database']['password']);
-        } catch (\Exception $e) {
-            echo 'Error de connexió a la base de dades: ' . $e;
-        }
+        $dsn = $config['driver'].':host='.$config['host'].';dbname='.$config['database'];
+        return new PDO(
+            $dsn, $config['user'], $config['password']
+        );
     }
 }

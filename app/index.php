@@ -1,9 +1,8 @@
 <?php 
 
-use Framework\Database\Database;
+use App\Framework\App;
+use App\Framework\Database\Database;
 
-require 'config.php';
 require 'app/helpers.php';
 
-$database = new Database($config);
-$tasks = $database->selectAll('tasks');
+$tasks = App::get('database')::selectAll('tasks');

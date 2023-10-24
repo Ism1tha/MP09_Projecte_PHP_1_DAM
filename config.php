@@ -1,6 +1,6 @@
 <?php
 
-$config = [
+return $config = [
     'database' => [
         'driver' => 'mysql',
         'host' => 'localhost',
