@@ -2,10 +2,10 @@
 
 return $config = [
     'database' => [
-        'driver' => 'mysql',
-        'host' => 'localhost',
-        'user' => 'root',
-        'password' => 'root',
-        'database' => 'php_laravel'
+        'driver'   =>    $_ENV['DB_CONNECTION'],
+        'host'     =>    $_ENV['DB_HOST'],
+        'user'     =>    $_ENV['DB_USERNAME'],
+        'password' =>    $_ENV['DB_PASSWORD'],
+        'database' =>    $_ENV['DB_DATABASE']
     ]
  ];
