@@ -1,8 +1,6 @@
 <?php 
 
-use App\Framework\App;
-use App\Framework\Database\Database;
-
-require 'app/helpers.php';
+use Framework\App;
+use Framework\Database\Database;
 
 $tasks = App::get('database')::selectAll('tasks');
