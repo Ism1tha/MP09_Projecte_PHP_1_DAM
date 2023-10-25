@@ -6,8 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <?php echo greeting(); ?>g
-
+    <!-- Nav menu -->
+    <ul>
+        <li><a href="index.php">Tasques</a></li>
+        <li><a href="users.html">Users</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+    <!-- End Nav menu -->
+    <!-- Page content -->
+    <?php echo greeting(); ?>
     <table>
         <tr>
             <th>Id</th>
@@ -24,6 +32,6 @@
         </tr>
         <?php endforeach; ?>
     </table>
-    
+    <!-- End Page content -->
 </body>
 </html>
