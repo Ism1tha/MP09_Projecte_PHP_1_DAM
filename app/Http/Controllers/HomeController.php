@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 use Framework\App;
 use Framework\Database\Database;
