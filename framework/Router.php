@@ -16,7 +16,7 @@ class Router
     public function render($uri)
     {
         if (array_key_exists($uri, $this->routes)) {
-            if (array_key_exists('controller', $this->routes[$uri])) {
+            if($this->routes[$uri]['controller'] != "") {
                 require $this->routes[$uri]['controller'];
             }
             $route = $this->routes[$uri];
