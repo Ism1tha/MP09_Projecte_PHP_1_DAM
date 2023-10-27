@@ -15,7 +15,7 @@
                         <a href="/contact" <?= ($route["url"] == "/contact") ? 'class="bg-blue-700 text-white rounded-md px-3 py-2 text-sm font-medium"' : 'class="text-white hover:bg-blue-500 hover:bg-opacity-75 rounded-md px-3 py-2 text-sm font-medium"' ?>
                         aria-current="page">Contacte</a>
                         <a href="/about" <?= ($route["url"] == "/about") ? 'class="bg-blue-700 text-white rounded-md px-3 py-2 text-sm font-medium"' : 'class="text-white hover:bg-blue-500 hover:bg-opacity-75 rounded-md px-3 py-2 text-sm font-medium"' ?>
-                        aria-current="page">Sobre nossaltres</a>
+                        aria-current="page">Sobre nosaltres</a>
                     </div>
                 </div>
             </div>
