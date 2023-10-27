@@ -17,3 +17,15 @@ Abans de començar a treballar amb aquest projecte, assegura't de tenir les seg�
 
 - PHP (versió 8.2.10)
 - Composer (versió 2.6-dev)
+
+## Extra
+
+El enrutador també accepta paràmetres:
+
+```
+https://dev1.ismasg.es/?first_name=Ismael&last_name=Semmar
+```
+
+## Versions
+
+https://github.com/Ism1tha/MP09_Projecte_PHP_1/tags
