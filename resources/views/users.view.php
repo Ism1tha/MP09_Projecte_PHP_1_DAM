@@ -1,8 +1,8 @@
 <div class="px-4 sm:px-6 lg:px-8">
   <div class="sm:flex sm:items-center">
     <div class="sm:flex-auto">
-      <h1 class="text-2xl font-semibold leading-6 text-gray-700">Tasques</h1>
-      <p class="mt-2 text-sm text-gray-700">Llista de tasques a realitzar per aquesta setmana.</p>
+      <h1 class="text-2xl font-semibold leading-6 text-gray-700">Usuaris</h1>
+      <p class="mt-2 text-sm text-gray-700">Llista d'usuaris registrats.</p>
     </div>
   </div>
   <div class="mt-8 flow-root">
