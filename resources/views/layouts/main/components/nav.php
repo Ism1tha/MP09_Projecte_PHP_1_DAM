@@ -8,14 +8,10 @@
                 </div>
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">
-                        <a href="/" <?= ($route["url"] == "/") ? 'class="bg-blue-700 text-white rounded-md px-3 py-2 text-sm font-medium"' : 'class="text-white hover:bg-blue-500 hover:bg-opacity-75 rounded-md px-3 py-2 text-sm font-medium"' ?>
-                            aria-current="page">Tasques</a>
-                        <a href="/users" <?= ($route["url"] == "/users") ? 'class="bg-blue-700 text-white rounded-md px-3 py-2 text-sm font-medium"' : 'class="text-white hover:bg-blue-500 hover:bg-opacity-75 rounded-md px-3 py-2 text-sm font-medium"' ?>
-                        aria-current="page">Usuaris</a>
-                        <a href="/contact" <?= ($route["url"] == "/contact") ? 'class="bg-blue-700 text-white rounded-md px-3 py-2 text-sm font-medium"' : 'class="text-white hover:bg-blue-500 hover:bg-opacity-75 rounded-md px-3 py-2 text-sm font-medium"' ?>
-                        aria-current="page">Contacte</a>
-                        <a href="/about" <?= ($route["url"] == "/about") ? 'class="bg-blue-700 text-white rounded-md px-3 py-2 text-sm font-medium"' : 'class="text-white hover:bg-blue-500 hover:bg-opacity-75 rounded-md px-3 py-2 text-sm font-medium"' ?>
-                        aria-current="page">Sobre nosaltres</a>
+                        <a href="/" <?= ($route["url"] == "/") ? 'class="bg-blue-700 text-white rounded-md px-3 py-2 text-sm font-medium"' : 'class="text-white hover:bg-blue-500 hover:bg-opacity-75 rounded-md px-3 py-2 text-sm font-medium"' ?>>Tasques</a>
+                        <a href="/users" <?= ($route["url"] == "/users") ? 'class="bg-blue-700 text-white rounded-md px-3 py-2 text-sm font-medium"' : 'class="text-white hover:bg-blue-500 hover:bg-opacity-75 rounded-md px-3 py-2 text-sm font-medium"' ?>>Usuaris</a>
+                        <a href="/contact" <?= ($route["url"] == "/contact") ? 'class="bg-blue-700 text-white rounded-md px-3 py-2 text-sm font-medium"' : 'class="text-white hover:bg-blue-500 hover:bg-opacity-75 rounded-md px-3 py-2 text-sm font-medium"' ?>>Contacte</a>
+                        <a href="/about" <?= ($route["url"] == "/about") ? 'class="bg-blue-700 text-white rounded-md px-3 py-2 text-sm font-medium"' : 'class="text-white hover:bg-blue-500 hover:bg-opacity-75 rounded-md px-3 py-2 text-sm font-medium"' ?>>Sobre nosaltres</a>
                     </div>
                 </div>
             </div>
@@ -40,16 +36,10 @@
     </div>
     <div class="md:hidden" id="mobile-menu">
         <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
-            <a href="#" class="bg-blue-700 text-white block rounded-md px-3 py-2 text-base font-medium"
-                aria-current="page">Dashboard</a>
-            <a href="#"
-                class="text-white hover:bg-blue-500 hover:bg-opacity-75 block rounded-md px-3 py-2 text-base font-medium">Team</a>
-            <a href="#"
-                class="text-white hover:bg-blue-500 hover:bg-opacity-75 block rounded-md px-3 py-2 text-base font-medium">Projects</a>
-            <a href="#"
-                class="text-white hover:bg-blue-500 hover:bg-opacity-75 block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
-            <a href="#"
-                class="text-white hover:bg-blue-500 hover:bg-opacity-75 block rounded-md px-3 py-2 text-base font-medium">Reports</a>
+            <a href="/" class="<?= ($route["url"] == "/") ? 'bg-blue-700 text-white block rounded-md px-3 py-2 text-base font-medium' : 'text-white hover:bg-blue-500 hover:bg-opacity-75 block rounded-md px-3 py-2 text-base font-medium' ?>">Tasques</a>
+            <a href="/users" class="<?= ($route["url"] == "/users") ? 'bg-blue-700 text-white block rounded-md px-3 py-2 text-base font-medium' : 'text-white hover:bg-blue-500 hover:bg-opacity-75 block rounded-md px-3 py-2 text-base font-medium' ?>">Usuaris</a>
+            <a href="/contact" class="<?= ($route["url"] == "/contact") ? 'bg-blue-700 text-white block rounded-md px-3 py-2 text-base font-medium' : 'text-white hover:bg-blue-500 hover:bg-opacity-75 block rounded-md px-3 py-2 text-base font-medium' ?>">Contacte</a>
+            <a href="/about" class="<?= ($route["url"] == "/about") ? 'bg-blue-700 text-white block rounded-md px-3 py-2 text-base font-medium' : 'text-white hover:bg-blue-500 hover:bg-opacity-75 block rounded-md px-3 py-2 text-base font-medium' ?>">Sobre nosaltres</a>
         </div>
     </div>
 </nav>
